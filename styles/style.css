@@ -1,0 +1,12 @@
+h1 {
+  font-size: 90px;
+}
+
+h3 {
+  font-size: medium;
+  text-align: right;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+}
