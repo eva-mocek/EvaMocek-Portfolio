@@ -1,5 +1,6 @@
 :root {
   --background-color: #212529;
+  --accent-color: rgb(179, 238, 103);
   --header-gradient: linear-gradient(
     rgb(33, 37, 41, 0.3),
     rgba(33, 37, 41, 0.8)
@@ -11,9 +12,36 @@ h1 {
   margin-bottom: 0;
 }
 
+h2,
+p {
+  text-align: center;
+}
+
 h3 {
   font-size: medium;
   text-align: right;
+}
+
+button {
+  padding: 10px 30px;
+  margin: 0 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.intro-paragraph {
+  padding: 30px 60px;
+  background-color: var(--background-color);
+  color: white;
+}
+
+.intro-buttons {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-brand {
