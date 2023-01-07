@@ -1,5 +1,9 @@
 :root {
   --background-color: #212529;
+  --header-gradient: linear-gradient(
+    rgb(33, 37, 41, 0.3),
+    rgba(33, 37, 41, 0.8)
+  );
 }
 
 h1 {
@@ -28,7 +32,7 @@ h3 {
 }
 
 .homepage-header {
-  background-image: linear-gradient(rgb(33, 37, 41, 0.3), rgba(33, 37, 41, 0.8)),
+  background-image: var(--header-gradient),
     url("../images/homepage-header-image.jpg");
   color: white;
 }
