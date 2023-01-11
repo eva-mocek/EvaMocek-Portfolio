@@ -28,7 +28,7 @@ button {
 }
 
 a {
-  color: black;
+  color: var(--background-color);
   text-decoration: none;
   font-weight: bold;
 }
