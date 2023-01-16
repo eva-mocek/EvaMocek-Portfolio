@@ -23,6 +23,10 @@ h4 {
 }
 
 h5 {
+  font-size: 40px;
+}
+
+h6 {
   font-size: 18px;
 }
 
@@ -32,7 +36,6 @@ p {
 
 button {
   padding: 10px 30px;
-  margin: 30px 20px;
 }
 
 a {
@@ -51,6 +54,9 @@ a {
 .intro-buttons {
   display: flex;
   justify-content: center;
+}
+.intro-buttons button {
+  margin: 30px 20px;
 }
 
 .navbar-brand {
@@ -104,20 +110,14 @@ a {
   text-align: left;
 }
 
-.hero-images {
-  border-radius: 10px;
-  margin-bottom: 40px;
+.hero-buttons {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-buttons button {
-  margin: 0;
-  padding: 16px 24px;
-  background-color: var(--background-color);
-}
-
-.hero-buttons a {
-  text-align: center;
-  color: white;
+  margin: 30px 20px;
 }
 
 .footer {
@@ -138,4 +138,31 @@ a {
 .footer-link {
   color: white;
   font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .page-header {
+    padding-top: 30px;
+  }
+
+  .intro-paragraph {
+    padding: 50px 20px 0 20px;
+  }
 }
