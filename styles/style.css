@@ -15,7 +15,7 @@ h2 {
 }
 
 h3 {
-  font-size: medium;
+  font-size: 20px;
 }
 
 h4 {
@@ -24,6 +24,10 @@ h4 {
 
 h5 {
   font-size: 18px;
+}
+
+p {
+  opacity: 80%;
 }
 
 button {
@@ -75,15 +79,24 @@ a {
 .general-content {
   background-color: var(--background-color);
   color: white;
-  padding: 60px 100px;
+  padding: 0 100px 60px 100px;
   text-align: start;
+  line-height: 30px;
+}
+.general-content a {
+  color: white;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 .general-content-images-lg {
-  max-width: 600px;
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.general-content-section-wrapper {
+  padding: 0 30px;
 }
 
 .learn-more-links {
