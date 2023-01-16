@@ -95,10 +95,6 @@ a {
   margin-bottom: 40px;
 }
 
-.general-content-section-wrapper {
-  padding: 0 30px;
-}
-
 .learn-more-links {
   text-decoration: underline;
 }
@@ -109,15 +105,19 @@ a {
 }
 
 .hero-images {
-  max-width: 800px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
 
-a .hero-buttons {
-  display: flex;
-  justify-content: center;
-  padding: 30px 60px;
+.hero-buttons button {
+  margin: 0;
+  padding: 16px 24px;
+  background-color: var(--background-color);
+}
+
+.hero-buttons a {
+  text-align: center;
+  color: white;
 }
 
 .footer {
