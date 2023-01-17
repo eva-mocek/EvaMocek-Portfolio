@@ -4,6 +4,10 @@
   --hero-gradient: linear-gradient(rgb(33, 37, 41, 0.3), rgba(33, 37, 41, 0.8));
 }
 
+body {
+  font-family: "Rosario", sans-serif;
+}
+
 h1 {
   font-size: 100px;
   margin-bottom: 0;
@@ -34,6 +38,10 @@ p {
   opacity: 80%;
 }
 
+i {
+  padding: 0 10px;
+}
+
 button {
   padding: 10px 30px;
 }
@@ -42,21 +50,6 @@ a {
   color: var(--background-color);
   text-decoration: none;
   font-weight: bold;
-}
-
-.intro-paragraph {
-  padding: 80px 60px 30px 60px;
-  background-color: var(--background-color);
-  color: white;
-  text-align: center;
-}
-
-.intro-buttons {
-  display: flex;
-  justify-content: center;
-}
-.intro-buttons button {
-  margin: 30px 20px;
 }
 
 .navbar-brand {
@@ -73,6 +66,21 @@ a {
   display: flex;
   justify-content: flex-end;
   text-align: right;
+}
+
+.intro-paragraph {
+  padding: 80px 60px 30px 60px;
+  background-color: var(--background-color);
+  color: white;
+  text-align: center;
+}
+
+.intro-buttons {
+  display: flex;
+  justify-content: center;
+}
+.intro-buttons button {
+  margin: 30px 20px;
 }
 
 .homepage-header,
@@ -102,11 +110,11 @@ a {
 
 .learn-more-links {
   text-decoration: underline;
+  margin-bottom: 0;
 }
 
-.hero-content {
-  padding: 60px 100px;
-  text-align: left;
+.hero-content h4 {
+  padding-top: 60px;
 }
 
 .hero-buttons {
@@ -122,7 +130,6 @@ a {
 .footer {
   background-color: var(--background-color);
   color: white;
-  padding: 50px 200px;
 }
 .footer-icon {
   font-size: 50px;
@@ -144,13 +151,10 @@ a {
     display: none;
   }
 
-  i {
-    padding: 50px 10px;
+  .footer-icon {
+    padding: 30px 10px;
     display: flex;
     justify-content: center;
-  }
-
-  .footer-icon {
     font-size: 30px;
   }
 
@@ -169,11 +173,11 @@ a {
   }
 
   h4 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   h5 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   p {
@@ -182,14 +186,32 @@ a {
   }
 
   .page-header {
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-left: 30px;
   }
 
   .intro-paragraph {
     padding: 50px 20px 0 20px;
   }
 
+  .general-content {
+    padding: 0 30px 30px 30px;
+  }
+
+  .general-content-images-lg {
+    margin: 50px auto 30px auto;
+  }
+
   .hero-content {
     padding: 30px auto;
+  }
+
+  .footer {
+    padding: 0 50px;
+  }
+
+  .footer-icon {
+    display: flex;
+    justify-items: space-around;
   }
 }
