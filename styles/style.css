@@ -127,6 +127,25 @@ a {
   margin: 30px 20px;
 }
 
+.about-page-header {
+  background-image: var(--hero-gradient),
+    url("../images/homepage-header-image.jpg");
+  color: white;
+}
+
+.about-intro-section {
+  color: white;
+  background: var(--background-color);
+  padding: 100px 200px;
+}
+.about-intro-section h1 {
+  line-height: 1.3;
+}
+
+.about-page-headshot {
+  border-radius: 10px;
+}
+
 .footer {
   background-color: var(--background-color);
   color: white;
