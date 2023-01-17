@@ -42,6 +42,10 @@ i {
   padding: 30px 10px;
 }
 
+img {
+  border-radius: 10px;
+}
+
 button {
   padding: 10px 30px;
 }
@@ -84,8 +88,9 @@ a {
 }
 
 .homepage-header,
-.hero-content {
-  background-image: var(--hero-gradient),
+.hero-content,
+.about-page-header {
+  background-image: linear-gradient(rgb(33, 37, 41, 0.6), rgba(33, 37, 41, 0.9)),
     url("../images/homepage-header-image.jpg");
   color: white;
 }
@@ -104,7 +109,6 @@ a {
 }
 
 .general-content-images-lg {
-  border-radius: 10px;
   margin: 40px 0;
 }
 
@@ -127,23 +131,37 @@ a {
   margin: 30px 20px;
 }
 
-.about-page-header {
-  background-image: var(--hero-gradient),
-    url("../images/homepage-header-image.jpg");
-  color: white;
-}
-
 .about-intro-section {
   color: white;
   background: var(--background-color);
   padding: 100px 200px;
 }
-.about-intro-section h1 {
-  line-height: 1.3;
+
+.about-intro-section h4 {
+  font-size: 60px;
+  line-height: 1.5;
+  padding-top: 20px;
 }
 
-.about-page-headshot {
-  border-radius: 300px;
+.about-intro-main-skills {
+  padding-top: 100px;
+}
+
+.about-hero-section {
+  background-image: var(--hero-gradient),
+    url("../images/homepage-header-image.jpg");
+  color: white;
+  padding: 60px 200px;
+}
+
+.about-hero-section img {
+  margin-bottom: 60px;
+}
+.about-hero-section-text {
+  padding-top: 30px;
+}
+.about-hero-section-text h3 {
+  line-height: 2;
 }
 
 .footer {
