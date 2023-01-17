@@ -97,8 +97,7 @@ a {
 
 .general-content-images-lg {
   border-radius: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 .learn-more-links {
@@ -132,12 +131,32 @@ a {
 
 .footer-text {
   font-size: 14px;
-  padding: 10px 80px;
+  padding: 10px 40px;
 }
 
 .footer-link {
   color: white;
   font-weight: normal;
+}
+
+@media (max-width: 1215px) {
+  h6 {
+    display: none;
+  }
+
+  i {
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-icon {
+    font-size: 30px;
+  }
+
+  .footer p {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -153,6 +172,10 @@ a {
     font-size: 40px;
   }
 
+  h5 {
+    font-size: 24px;
+  }
+
   p {
     font-size: 14px;
     line-height: normal;
@@ -164,5 +187,9 @@ a {
 
   .intro-paragraph {
     padding: 50px 20px 0 20px;
+  }
+
+  .hero-content {
+    padding: 30px auto;
   }
 }
