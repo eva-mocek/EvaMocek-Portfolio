@@ -89,7 +89,8 @@ a {
 
 .homepage-header,
 .hero-content,
-.about-page-header {
+.about-page-header,
+.about-hero-section {
   background-image: linear-gradient(rgb(33, 37, 41, 0.6), rgba(33, 37, 41, 0.9)),
     url("../images/homepage-header-image.jpg");
   color: white;
@@ -147,9 +148,6 @@ a {
 }
 
 .about-hero-section {
-  background-image: var(--hero-gradient),
-    url("../images/homepage-header-image.jpg");
-  color: white;
   padding: 100px 200px;
 }
 
