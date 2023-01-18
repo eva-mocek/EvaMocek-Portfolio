@@ -170,9 +170,22 @@ a {
   color: white;
 }
 
+.about-in-progress-projects {
+  background-image: var(--hero-gradient),
+    url("../images/homepage-header-image.jpg");
+  padding: 60px 100px;
+  color: white;
+  text-align: center;
+}
+
+.about-in-progress-projects img {
+  margin-bottom: 20px;
+}
+
 .footer {
   background-color: var(--background-color);
   color: white;
+  padding: 0 100px;
 }
 .footer-icon {
   font-size: 50px;
