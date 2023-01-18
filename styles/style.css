@@ -140,7 +140,6 @@ a {
 .about-intro-section h4 {
   font-size: 60px;
   line-height: 1.5;
-  padding-top: 20px;
 }
 
 .about-intro-main-skills {
@@ -155,7 +154,7 @@ a {
 }
 
 .about-hero-section-text {
-  padding-top: 30px;
+  padding-top: 16px;
 }
 
 .about-hero-section-text h3 {
@@ -202,8 +201,50 @@ a {
 }
 
 @media (max-width: 1215px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 60px;
+  }
+
   h6 {
     display: none;
+  }
+
+  .about-intro-section {
+    padding: 60px;
+  }
+
+  .about-intro-section h4 {
+    font-size: 50px;
+  }
+
+  .about-intro-main-skills {
+    padding-top: 60px;
+  }
+
+  .about-intro-main-skills a {
+    margin-bottom: 60px;
+  }
+
+  .about-hero-section {
+    padding: 60px;
+  }
+
+  .about-lets-chat-section {
+    padding: 80px;
+    line-height: normal;
+  }
+
+  .about-lets-chat-section h4 {
+    font-size: 60px;
+    text-align: center;
   }
 
   .footer-icon {
@@ -259,6 +300,19 @@ a {
 
   .hero-content {
     padding: 30px auto;
+  }
+
+  .about-intro-section h4 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .about-hero-section h2 {
+    font-size: 18px;
+  }
+
+  .about-hero-section h3 {
+    font-size: 14px;
   }
 
   .footer {
