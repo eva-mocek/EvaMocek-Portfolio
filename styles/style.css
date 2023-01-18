@@ -151,15 +151,13 @@ a {
   background-image: var(--hero-gradient),
     url("../images/homepage-header-image.jpg");
   color: white;
-  padding: 60px 200px;
+  padding: 100px 200px;
 }
 
-.about-hero-section img {
-  margin-bottom: 60px;
-}
 .about-hero-section-text {
   padding-top: 30px;
 }
+
 .about-hero-section-text h3 {
   line-height: 1.5;
 }
