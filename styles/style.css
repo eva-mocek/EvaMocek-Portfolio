@@ -161,7 +161,13 @@ a {
   padding-top: 30px;
 }
 .about-hero-section-text h3 {
-  line-height: 2;
+  line-height: 1.5;
+}
+
+.about-lets-chat-section {
+  padding: 60px 200px;
+  background: var(--background-color);
+  color: white;
 }
 
 .footer {
