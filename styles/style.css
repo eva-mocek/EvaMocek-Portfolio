@@ -180,7 +180,7 @@ a {
 .footer {
   background-color: var(--background-color);
   color: white;
-  padding: 0 100px;
+  padding: 30px 100px 60px;
 }
 .footer-icon {
   font-size: 50px;
