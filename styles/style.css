@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-  font-size: 90px;
+  font-size: 80px;
 }
 
 h5 {
@@ -110,13 +110,8 @@ a {
 }
 
 .hero-buttons {
-  padding: 16px 24px;
   display: flex;
   justify-content: center;
-}
-
-.hero-buttons button {
-  margin: 30px 20px;
 }
 
 .footer {
@@ -165,8 +160,18 @@ a {
     font-size: 30px;
   }
 
+  .general-content,
   .hero-content {
     padding: 60px;
+  }
+
+  .skills-header {
+    font-size: 40px;
+  }
+
+  .skills-description {
+    font-size: 18px;
+    line-height: 1.5;
   }
 
   .hero-content h3 {
