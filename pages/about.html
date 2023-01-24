@@ -11,6 +11,21 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,7 +41,6 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <!-- hamburger button doesn't work when navbar is collapsed - why??? -->
       <a class="navbar-brand" href="#">EM</a>
       <button
         class="navbar-toggler"
@@ -59,86 +73,81 @@
       </div>
     </nav>
 
-    <div class="about-page-header">
-      <div class="row page-header">
+    <div class="header">
+      <div class="row">
         <div class="col-6 page-title">
           <h1>About</h1>
         </div>
-        <div class="col-6 page-subtitle d-none d-md-block">
-          <h3>
-            Fashion Designer <br />
-            Front-End Dev <br />
-            Entrepreneur <br />
-            Outdoor Enthusiast
-          </h3>
+      </div>
+    </div>
+
+    <div class="intro-paragraph row gx-5 justify-content-center">
+      <div class="col-3">
+        <img
+          class="img-fluid headshot"
+          src="../images/headshot.png"
+          alt="a photo of Eva in a white tshirt, grey jeans and convers, sitting on grass and looking away from the camera, smiling"
+        />
+      </div>
+      <div class="col-9">
+        <h5>
+          <strong>Hello!</strong> I'm Eva
+          <br />
+          Fashion Designer and Front-End Dev from Toronto, ON
+        </h5>
+      </div>
+    </div>
+
+    <div class="general-content">
+      <div class="row gx-5 text-center pt-5">
+        <div class="col-lg">
+          <h3>Fashion Design</h3>
+          <p>
+            My experience in the fashion industry ranges broadly, including
+            everything from costume to bridalwear, knitwear and dresses to stage
+            drapes and industrial equipment covers. My current project is my
+            brand, Juniper & Eve, which I started in June 2021 to provide
+            sustainable underwear options to people across the gender spectrum.
+          </p>
+          <button class="btn btn-light mb-5">
+            <a href="https://www.juniperandeve.ca/">Visit Juniper & Eve</a>
+          </button>
+        </div>
+        <div class="col-lg">
+          <h3>Web Developer</h3>
+          <p>
+            In fall 2022, I took an introductory coding course through SheCodes,
+            and fell in love wih coding. I am now working my way through their
+            full set of courses, and along with independent learning, am
+            developing my skills as a front-end web developer. This portfolio is
+            my final project for the SheCodes Responsive course.
+          </p>
+          <button class="btn btn-light mb-5">
+            <a href="https://github.com/eva-mocek">Visit my Github</a>
+          </button>
+        </div>
+        <div class="col-lg">
+          <h3>Artist</h3>
+          <p>
+            A maker at heart, I always have several personal projects in the
+            works. As a fashion designer, many of these projects explore
+            concepts through clothing or wearable artwork, documented by my
+            friend and photographer,
+            <a
+              href="https://arkinography.com/"
+              class="text-light font-weight-bold"
+              ><u>Arkinography</u></a
+            >. I am also learning the basics of graphic design and am working on
+            several smaller design projects, coming soon!
+          </p>
+          <button class="btn btn-light mb-5">
+            <a href="#">Gallery Coming Soon!</a>
+          </button>
         </div>
       </div>
     </div>
 
-    <div class="about-intro-section">
-      <div class="row gx-5">
-        <div class="col-4">
-          <img
-            class="img-fluid about-page-headshot"
-            src="../images/headshot.png"
-            alt="A photo of Eva in a white t-shirt and sitting on a grassy slope"
-          />
-        </div>
-        <div class="col-8">
-          <h4 class="text-start">
-            <strong>Hello!</strong> I'm Eva
-            <br />
-            Fashion Designer and Front-End Dev from Toronto, ON
-          </h4>
-        </div>
-      </div>
-      <div class="about-intro-main-skills">
-        <div class="row gx-5">
-          <div class="col-lg">
-            <h3>Fashion Design</h3>
-            <p>
-              My experience in the fashion industry ranges broadly, including
-              everything from costume to bridalwear, knitwear and dresses to
-              stage drapes and industrial equipment covers. My current project
-              is my brand, Juniper & Eve, which I started in June 2021 to
-              provide sustainable underwear options to people across the gender
-              spectrum.
-            </p>
-            <a href="#" class="btn btn-light">Visit Juniper & Eve</a>
-          </div>
-          <div class="col-lg">
-            <h3>Web Developer</h3>
-            <p>
-              In fall 2022, I took an introductory coding course through
-              SheCodes, and fell in love wih coding. I am now working my way
-              through their full set of courses, and along with independent
-              learning, am developing my skills as a front-end web developer.
-              This portfolio is my final project for the SheCodes Responsive
-              course.
-            </p>
-            <a href="https://github.com/eva-mocek" class="btn btn-light"
-              >Visit my Github</a
-            >
-          </div>
-          <div class="col-lg">
-            <h3>Artist</h3>
-            <p>
-              A maker at heart, I always have several personal projects in the
-              works. As a fashion designer, many of these projects explore
-              concepts through clothing or wearable artwork, documented by my
-              friend and photographer,
-              <a href="https://arkinography.com/" class="text-light"
-                >Arkinography</a
-              >. I am also learning the basics of graphic design and am working
-              on several smaller design projects, coming soon!
-            </p>
-            <a href="#" class="btn btn-light">Gallery Coming Soon!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="about-hero-section">
+    <div class="hero-content">
       <div class="row gx-5 mb-5">
         <div class="col-md">
           <img
@@ -178,12 +187,12 @@
       </div>
     </div>
 
-    <div class="about-lets-chat-section">
+    <div class="general-content">
       <div class="row gx-5">
-        <div class="col-2">
-          <h4>Let's Chat!</h4>
+        <div class="col">
+          <h4 class="text-center">Let's Chat!</h4>
         </div>
-        <div class="col-lg-5 p-3">
+        <div class="col">
           <h2 class="text-end">Eva's Contact Info</h2>
           <h3 class="text-end lh-lg">
             <a
@@ -201,7 +210,8 @@
             >
           </h3>
         </div>
-        <div class="col-lg-5 p-3">
+
+        <div class="col">
           <h2 class="text-start">Juniper & Eve Contact Info</h2>
           <h3 class="text-start lh-lg">
             <a href="https://www.juniperandeve.ca/" class="text-light fw-normal"
@@ -220,22 +230,26 @@
       </div>
     </div>
 
-    <div class="about-in-progress-projects">
+    <div class="hero-content text-center">
       <h2 class="mb-5">Upcoming Projects...</h2>
       <div class="row gx-5">
         <div class="col-lg">
-          <img src="../images/capsule-wardrobe.png" alt="" class="img-fluid" />
+          <img
+            src="../images/capsule-wardrobe.png"
+            alt=""
+            class="img-fluid m-3"
+          />
           <h3>Capsule Wardrobe</h3>
-          <p>
+          <p class="mb-5">
             I am building a personal capsule wardrobe using sustainable, natural
             materials as much as possible, and made entirely by me. My wardrobe
             will be minimal in nature, and include everything from hat to shoes!
           </p>
         </div>
         <div class="col-lg">
-          <img src="../images/sew-in-labels.png" alt="" class="img-fluid" />
+          <img src="../images/sew-in-labels.png" alt="" class="img-fluid m-3" />
           <h3>Sew-In Labels</h3>
-          <p>
+          <p class="mb-5">
             To exercise my graphic design skills, I am designing a series of
             woven fabric labels that can be sewn into garments, to add a splash
             of colour and humour to my personal projects. If they turn out well,
@@ -246,10 +260,10 @@
           <img
             src="../images/green.png"
             alt="a mood board for the color forest green with a grid of pictures of foliage and a colour palette"
-            class="img-fluid"
+            class="img-fluid m-3"
           />
           <h3>Green</h3>
-          <p>
+          <p class="mb-5">
             A colour-study of sorts, this project will explore a particular
             shade of forest green through fabric, photography, art and natural
             dyes. My goal will be to build a website showcasing my photos and
@@ -257,9 +271,9 @@
           </p>
         </div>
         <div class="col-lg">
-          <img src="../images/creams.png" alt="" class="img-fluid" />
+          <img src="../images/creams.png" alt="" class="img-fluid m-3" />
           <h3>Handmade Beauty Products</h3>
-          <p>
+          <p class="mb-5">
             During the pandemic, I became interested in making my own
             all-natural beauty products. I made a few batches of moisturizers
             and lip balms, to give friends and family, and designed my own

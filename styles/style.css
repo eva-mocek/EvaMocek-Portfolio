@@ -36,6 +36,7 @@ h6 {
 
 p {
   opacity: 80%;
+  margin-bottom: 0;
 }
 
 i {
@@ -47,7 +48,7 @@ img {
 }
 
 button {
-  padding: 10px 30px;
+  margin: 30px 20px;
 }
 
 a {
@@ -60,66 +61,52 @@ a {
   padding-left: 15px;
 }
 
-.page-header {
-  padding: 80px 50px 20px 50px;
-  display: flex;
-  align-items: end;
-}
-
-.page-subtitle {
-  display: flex;
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.intro-paragraph {
-  padding: 80px 60px 30px 60px;
-  background-color: var(--background-color);
-  color: white;
-  text-align: center;
-}
-
-.intro-buttons {
-  display: flex;
-  justify-content: center;
-}
-.intro-buttons button {
-  margin: 30px 20px;
-}
-
-.homepage-header,
-.hero-content,
-.about-page-header,
-.about-hero-section {
+.header {
+  padding: 80px 60px 30px;
   background-image: linear-gradient(rgb(33, 37, 41, 0.6), rgba(33, 37, 41, 0.9)),
     url("../images/homepage-header-image.jpg");
   color: white;
 }
 
+.header-subtitle {
+  text-align: right;
+  justify-content: end;
+  align-items: end;
+}
+
+.intro-paragraph {
+  padding: 80px 100px 30px;
+  background-color: var(--background-color);
+  color: white;
+  text-align: center;
+}
+
+.intro-paragraph h5 {
+  font-size: 70px;
+  text-align: start;
+}
+
 .general-content {
   background-color: var(--background-color);
   color: white;
-  padding: 0 100px 60px 100px;
+  padding: 60px 100px;
   text-align: start;
   line-height: 30px;
 }
-.general-content a {
+
+.hero-content {
+  background-image: linear-gradient(rgb(33, 37, 41, 0.6), rgba(33, 37, 41, 0.9)),
+    url("../images/homepage-header-image.jpg");
   color: white;
-  font-weight: normal;
-  text-decoration: underline;
-}
-
-.general-content-images-lg {
-  margin: 40px 0;
-}
-
-.learn-more-links {
-  text-decoration: underline;
-  margin-bottom: 0;
+  padding: 100px;
 }
 
 .hero-content h4 {
   padding-top: 60px;
+}
+
+.hero-content h3 {
+  line-height: 2;
 }
 
 .hero-buttons {
@@ -130,51 +117,6 @@ a {
 
 .hero-buttons button {
   margin: 30px 20px;
-}
-
-.about-intro-section {
-  color: white;
-  background: var(--background-color);
-  padding: 100px 200px;
-}
-
-.about-intro-section h4 {
-  font-size: 60px;
-  line-height: 1.5;
-}
-
-.about-intro-main-skills {
-  padding-top: 100px;
-}
-
-.about-hero-section {
-  padding: 100px 200px;
-}
-
-.about-hero-section-text {
-  padding-top: 16px;
-}
-
-.about-hero-section-text h3 {
-  line-height: 1.5;
-}
-
-.about-lets-chat-section {
-  padding: 60px 200px;
-  background: var(--background-color);
-  color: white;
-}
-
-.about-in-progress-projects {
-  background-image: var(--hero-gradient),
-    url("../images/homepage-header-image.jpg");
-  padding: 60px 100px;
-  color: white;
-  text-align: center;
-}
-
-.about-in-progress-projects img {
-  margin-bottom: 20px;
 }
 
 .footer {
@@ -211,38 +153,24 @@ a {
     font-size: 60px;
   }
 
+  h5 {
+    font-size: 30px;
+  }
+
   h6 {
     display: none;
   }
 
-  .about-intro-section {
+  .intro-paragraph h5 {
+    font-size: 30px;
+  }
+
+  .hero-content {
     padding: 60px;
   }
 
-  .about-intro-section h4 {
-    font-size: 50px;
-  }
-
-  .about-intro-main-skills {
-    padding-top: 60px;
-  }
-
-  .about-intro-main-skills a {
-    margin-bottom: 60px;
-  }
-
-  .about-hero-section {
-    padding: 60px;
-  }
-
-  .about-lets-chat-section {
-    padding: 80px;
-    line-height: normal;
-  }
-
-  .about-lets-chat-section h4 {
-    font-size: 60px;
-    text-align: center;
+  .hero-content h3 {
+    line-height: 1.5;
   }
 
   .footer-icon {
@@ -276,41 +204,27 @@ a {
 
   p {
     font-size: 14px;
-    line-height: normal;
+    line-height: 1.5;
   }
 
   .page-header {
-    padding-top: 30px;
-    padding-left: 30px;
+    padding: 30px auto auto 30px;
   }
 
   .intro-paragraph {
-    padding: 50px 20px 0 20px;
+    padding: 50px 50px 0;
   }
 
   .general-content {
-    padding: 0 30px 30px 30px;
-  }
-
-  .general-content-images-lg {
-    margin: 50px auto 30px auto;
+    padding: 30px;
   }
 
   .hero-content {
     padding: 30px auto;
   }
 
-  .about-intro-section h4 {
-    font-size: 28px;
-    line-height: 1.2;
-  }
-
-  .about-hero-section h2 {
-    font-size: 18px;
-  }
-
-  .about-hero-section h3 {
-    font-size: 14px;
+  .hero-content img {
+    margin: 30px auto;
   }
 
   .footer {
