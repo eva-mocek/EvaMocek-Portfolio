@@ -57,6 +57,10 @@ a {
   font-weight: bold;
 }
 
+li {
+  padding-left: 30px;
+}
+
 .navbar-brand {
   padding-left: 15px;
 }
@@ -112,6 +116,15 @@ a {
 .hero-buttons {
   display: flex;
   justify-content: center;
+}
+
+.contact-info a {
+  color: white;
+  opacity: 80%;
+}
+
+.contact-info i {
+  font-size: 30px;
 }
 
 .footer {
@@ -230,6 +243,16 @@ a {
 
   .hero-content img {
     margin: 30px auto;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info h5 {
+    font-size: 24px;
+    padding-top: 30px;
+    text-decoration: underline;
   }
 
   .footer {
