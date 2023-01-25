@@ -1,6 +1,5 @@
 :root {
   --background-color: #181e1c;
-  --accent-color: rgb(179, 238, 103);
   --hero-gradient: linear-gradient(rgb(33, 37, 41, 0.3), rgba(33, 37, 41, 0.8));
 }
 
